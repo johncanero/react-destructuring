@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-destructuring/static/css/main.073c9b0a.css",
+    "main.js": "/react-destructuring/static/js/main.573d8001.js",
+    "static/js/787.e526170e.chunk.js": "/react-destructuring/static/js/787.e526170e.chunk.js",
+    "static/media/logo.svg": "/react-destructuring/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-destructuring/index.html",
+    "main.073c9b0a.css.map": "/react-destructuring/static/css/main.073c9b0a.css.map",
+    "main.573d8001.js.map": "/react-destructuring/static/js/main.573d8001.js.map",
+    "787.e526170e.chunk.js.map": "/react-destructuring/static/js/787.e526170e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.573d8001.js"
+  ]
+}
