@@ -4,8 +4,25 @@ import cars from './cars';
   function App() {
 
   // Console Log
-  const [honda, tesla] = cars;
+  const [honda, tesla, spongebob] = cars;
   console.log(honda);
+
+
+ // coloursByPopularity
+ const {
+  coloursByPopularity: [hondaTopColour]
+} = honda;
+
+const {
+  coloursByPopularity: [teslaTopColour]
+} = tesla;
+
+
+const {
+  coloursByPopularity: [spongebobTopColour]
+} = spongebob;
+
+
 
   // SpeedStats
   const {
@@ -16,15 +33,9 @@ import cars from './cars';
     speedStats: { topSpeed: teslaTopSpeed }
   } = tesla;
 
-  // coloursByPopularity
   const {
-    coloursByPopularity: [hondaTopColour]
-  } = honda;
-
-  const {
-    coloursByPopularity: [teslaTopColour]
-  } = tesla;
-
+    speedStats: { topSpeed: spongebobTopSpeed }
+  } = spongebob;
 
 
 
@@ -35,16 +46,25 @@ import cars from './cars';
               <tr>
                 <th>Brand</th>
                 <th>Top Speed</th>
+                <th>Color</th>
               </tr>
+              
               <tr>
                 <td>{tesla.model}</td>
                 <td>{teslaTopSpeed}</td>
                 <td>{teslaTopColour}</td>
               </tr>
+
               <tr>
                 <td>{honda.model}</td>
                 <td>{hondaTopSpeed}</td>
                 <td>{hondaTopColour}</td>
+              </tr>
+
+              <tr>
+                <td>{spongebob.model}</td>
+                <td>{spongebobTopSpeed}</td>
+                <td>{spongebobTopColour}</td>
               </tr>
             </tbody>
      </table>

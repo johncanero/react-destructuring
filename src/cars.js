@@ -16,7 +16,15 @@ const cars = [
         topSpeed: 150,
         zeroToSixty: 3.2
       }
-    }
+    },
+    {
+        model: "Spongebob City",
+        coloursByPopularity: ["yellow", "white"],
+        speedStats: {
+          topSpeed: 110,
+          zeroToSixty: 3.2
+        }
+      }
   ];
   
   export default cars;
